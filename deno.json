@@ -17,11 +17,14 @@
     "format:check": "deno fmt --check && deno task --cwd crypto format:check"
   },
   "workspaces": [
+    "./collections",
     "./crypto",
     "./encoding",
-    "./http"
+    "./http",
+    "./sql"
   ],
   "exclude": [
-    "./crypto/hash/_wasm/target"
+    "./crypto/hash/_wasm/target",
+    "coverage"
   ]
 }

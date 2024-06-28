@@ -44,12 +44,16 @@ console.log(dump(buffer));
 
 ## Packages
 
+- [collections](https://jsr.io/@stdext/collections): The collections package
+  contains commonly used utilities and structures
 - [crypto](https://jsr.io/@stdext/crypto): The crypto package contains utility
   for crypto and hashing
 - [encoding](https://jsr.io/@stdext/encoding): The encoding package contains
   utility for text encoding.
 - [http](https://jsr.io/@stdext/http): The http package contains utility for
   fetching and http servers
+- [sql](https://jsr.io/@stdext/sql): The SQL package contains a standard
+  interface for SQL based databases
 
 ## Versioning
 
